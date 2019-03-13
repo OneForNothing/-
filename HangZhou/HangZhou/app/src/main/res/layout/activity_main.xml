@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/top_tab">
+
+        <TextView
+            android:id="@+id/concept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:text="首页"
+            android:contentDescription="@null"/>
+
+
+    </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/switch1"
+            android:layout_below="@id/top_bar">
+
+            <TextView
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="专题"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="关注"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+        <com.youth.banner.Banner
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_below="@id/switch1">
+        </com.youth.banner.Banner>
+
+
+
+        <ListView
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/banner"
+            android:layout_above="@id/bottom_tab">
+
+        </ListView>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:baselineAligned="true"
+        android:alpha="0.5">
+
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/first_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/first"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/first_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_image"
+                android:layout_centerHorizontal="true"
+                android:text="首页"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/second_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/second"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/second_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/second_image"
+                android:layout_centerHorizontal="true"
+                android:text="树洞"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/third"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/third_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/third"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/third_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/third_image"
+                android:layout_centerHorizontal="true"
+                android:text="测试"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fourth"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fourth_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fourth"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/fourth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fourth_image"
+                android:layout_centerHorizontal="true"
+                android:text="咨询"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fifth"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fifth_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fifth"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/fifth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fifth_image"
+                android:layout_centerHorizontal="true"
+                android:text="日历"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

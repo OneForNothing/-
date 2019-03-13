@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/share_yourself">
+
+    <TextView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="说说"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:background="@color/top_tab"/>
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back"
+            android:layout_alignTop="@+id/back"
+            android:text="返回"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="发表"
+        android:textColor="#C7C7C7" />
+
+    <EditText
+        android:id="@+id/shuoshuo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top|left"
+        android:hint="分享你的心情..."
+        android:layout_below="@+id/top_bar"/>
+
+    <ImageView
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/choose_image" />
+
+</RelativeLayout>

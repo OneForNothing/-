@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/top_tab">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/doctor"
+        android:layout_width="92dp"
+        android:layout_height="121dp"
+        android:src="@drawable/password_back" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="心理医生:"
+        android:layout_toEndOf="@+id/doctor"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/name_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雪人"
+        android:layout_toEndOf="@id/name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/doctor"
+        android:text="联系方式:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/contact"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/contact"
+        android:text="13141667188"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/doctor"
+        android:layout_toEndOf="@+id/doctor"
+        android:text="2018/1/13"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/yu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/doctor"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@id/time"
+        android:text="于"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/doctor"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/yu"
+        android:text="东南大学九龙湖校区"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>

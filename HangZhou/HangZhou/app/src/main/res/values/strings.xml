@@ -1,0 +1,79 @@
+<resources>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <string-array name="title">
+        <item>我国胃癌发病率居全球首位 喜食烫食腌食是主因</item>
+        <item>第二届中国心血管创新论坛(CIC-2015)成功召开</item>
+        <item>办公写字楼成吸烟投诉重灾区 执法将集中处罚</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>我国是消化道恶性肿瘤的高发国家，发病率占全球42%，仅胃癌每年就新增40万例，居全球首位。
+            在我国恶性肿瘤发病率、死亡率排名前六位中，胃肠道恶性肿瘤占据“半壁江山”，其中胃癌、食管癌、结肠癌分列第2、5、6位。</item>
+        <item>第二届中国心血管创新论坛(简称CIC-2015)于2015年6月19～21日在南京成功召开。
+            霍勇教授和张澍教授共同主持开幕式，陈琪教授和曹国芳主任致开幕词。</item>
+        <item>记者昨日从市卫计委了解到，自《北京市控制吸烟条例》本月实施以来，两周时间里控烟投诉举报1743件。
+            在接到的控烟投诉举报中，排在第一的为写字楼办公楼，其次是餐厅和商场超市。</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Test3</item>
+        <item>Test4</item>
+        <item>Test5</item>
+        <item>Test6</item>
+        <item>Test7</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+        <item>5:20 pm</item>
+    </string-array>
+
+    <string-array name="share">
+        <item>一帆直向金陵风，飞逝烟柳悒尘空。绝壁倒松倚看月，清泉直流花动容。可叹飞云总无奈，又笑春梦越相同。两岸风光看未尽，烟霞已在万山中。</item>
+        <item> 我知道我不是一个很好的记录者，但我比任何人都喜欢回首自己来时的路，我不但的回首，伫足，然手时光仍下我轰轰烈烈的向前奔去。</item>
+        <item> 亲爱的，车票我买好了!起点是今生，终点是来世，上车请遵守天长地久规则!人跟心不可随意伸出车外!不可中途跳车!希望我们能相爱到永久!永不分离。</item>
+        <item> 当一切都回不去了，当我决定要走，你才明白冷落了我，我要的不多，可你都没给够，哪怕一个温柔的相拥，对我来讲，都是幸福的。</item>
+        <item> 有一种成长叫程峰，有一种友谊叫吴狄，有一种现实叫石小猛，有一种疼惜叫邵华阳，有一种悔悟叫杨紫曦，有一种执着叫林夏，有一种媳妇叫沈冰，有一种纠结叫伍媚，有一种故事叫北京爱情故事。</item>
+        <item> 我不知道我现在做的哪些是对的，那些是错的，而当我终于老死的时候我才知道这些。所以我现在所能做的就是尽力做好每一件事，然后等待着老死。</item>
+        <item> 寂寞确实跟孤单不一样，孤单只表示身边没有别人，但寂寞是一种你无法将感受跟别人沟通或分享的心理状态。而真正的寂寞应该是连自己都忘了喜欢一个人的感觉</item>
+    </string-array>
+
+    <integer-array name="like">
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+    </integer-array>
+
+    <integer-array name="comment">
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+    </integer-array>
+
+    <string name="name">Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

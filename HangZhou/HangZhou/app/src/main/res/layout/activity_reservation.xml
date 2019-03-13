@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1_conslut"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/card2_conslut"
+
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp" >
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/consult1" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2_conslut"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp" >
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/consult2" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card3_conslut"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/card2_conslut"
+        android:layout_marginTop="20dp"
+
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp" >
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/consult3" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/concept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:text="心理咨询"
+            android:textColor="@color/switch1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:contentDescription="@null"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:baselineAligned="true"
+        android:alpha="0.5">
+
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/first_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/first"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/first_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_image"
+                android:layout_centerHorizontal="true"
+                android:text="首页"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/second_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/second"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/second_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/second_image"
+                android:layout_centerHorizontal="true"
+                android:text="树洞"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/third"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/third_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/third"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/third_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/third_image"
+                android:layout_centerHorizontal="true"
+                android:text="测试"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fourth"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fourth_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fourth"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/fourth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fourth_image"
+                android:layout_centerHorizontal="true"
+                android:text="咨询"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fifth"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fifth_image"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fifth"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/fifth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fifth_image"
+                android:layout_centerHorizontal="true"
+                android:text="日历"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

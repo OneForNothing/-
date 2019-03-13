@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="打小报告"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/comment_to"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:background="@drawable/textview_border"
+        android:hint="欢迎反馈任何意见哦，我们一定会用心对待！欢迎加微信：***更快捷沟通哦~"
+        android:textSize="16sp"
+        android:gravity="top|start"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/200"
+        android:textColor="#FFFF00"
+        android:layout_gravity="end"
+        android:layout_marginTop="-21dp"
+        android:textSize="15sp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textview_border"
+        android:hint="请留下你的联系方式 QQ/手机"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="放心吧我们不会透露您任何信息给别人哒"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:text="取消"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:id="@+id/submmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_border1"
+            android:text="提交"
+            android:textColor="#FFFF00"
+            android:textSize="18sp"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

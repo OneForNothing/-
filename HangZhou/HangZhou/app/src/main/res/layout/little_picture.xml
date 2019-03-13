@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/little_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:id="@+id/little_conpic"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_below="@+id/little_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/little_content"
+            android:layout_width="221dp"
+            android:layout_height="113dp"
+            android:layout_alignTop="@+id/little_picture"
+            android:layout_alignBottom="@+id/little_picture"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="-1dp"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/little_picture"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/home1" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

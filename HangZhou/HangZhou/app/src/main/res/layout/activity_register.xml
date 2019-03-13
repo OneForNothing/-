@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:filterTouchesWhenObscured="true"
+    tools:context="com.example.machenike.hangzhou.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_layout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usename_layout"
+            android:layout_marginTop="55dp"
+            android:gravity="center">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/username"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint="手机号"
+                android:paddingRight="60dp"
+                android:maxLength="20"
+                android:paddingLeft="55dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:src="@drawable/fourth"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="+62"
+                android:textSize="18sp"
+                android:visibility="invisible"/>
+            <Button
+                android:layout_width="31dp"
+                android:layout_height="35dp"
+                android:id="@+id/bt_usename_clear"
+                android:layout_gravity="right|center_horizontal"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edit"
+                android:visibility="invisible"/>
+
+
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usecode_layout"
+            android:layout_below="@id/usename_layout"
+            android:layout_marginTop="6dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:inputType="textPassword"
+                android:hint="密码"
+                android:maxLength="20"
+                android:paddingLeft="55dp"
+                android:paddingRight="60dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/like"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+            <Button
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:id="@+id/bt_pwd_clear"
+                android:background="@drawable/edit"
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="33dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmPsd_layout"
+            android:layout_below="@id/usecode_layout"
+            android:layout_marginTop="6dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/confirmPsd"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:inputType="textPassword"
+                android:hint="确认密码"
+                android:maxLength="20"
+                android:paddingLeft="55dp"
+                android:paddingRight="60dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:src="@drawable/fifth"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+            <Button
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:id="@+id/bt_confirmPsd_clear"
+                android:background="@drawable/edit"
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="33dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_layout"
+            android:layout_below="@id/confirmPsd_layout"
+            android:layout_marginTop="6dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:hint="邮箱"
+                android:maxLength="20"
+                android:paddingLeft="55dp"
+                android:paddingRight="60dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:src="@drawable/consult"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+            <Button
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:id="@+id/bt_email_clear"
+                android:background="@drawable/edit"
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="33dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/school_layout"
+            android:layout_below="@id/email_layout"
+            android:layout_marginTop="6dp"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/school"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:hint="学校"
+                android:maxLength="20"
+                android:paddingLeft="55dp"
+                android:paddingRight="60dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/first"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+            <Button
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:id="@+id/bt_school_clear"
+                android:background="@drawable/edit"
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="33dp"/>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/regis"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/school_layout"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="注册"
+            android:onClick="register"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/backLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textColor="@color/bottomtab_normal"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+</RelativeLayout>
